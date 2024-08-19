@@ -1,6 +1,0 @@
-create a virtual env using python -m venv env
-activate using the source/ env/ Scripts/activate
-install django better still create a requirment.txt 
-create your project using django-admin startproject Django_resume
-create a django app using the django-admiin startapp resume
-add resume app to the settings
