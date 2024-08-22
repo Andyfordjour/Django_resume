@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "Django_resume/wsgi.py", 
+        "src": "/Django_resume/Django_resume/wsgi.py", 
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "Django_resume/wsgi.py"
+            "dest": "/Django_reume/Django_resume/wsgi.py"
         },
         {
             "src": "/static/(.*)",
